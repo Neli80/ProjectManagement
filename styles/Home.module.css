@@ -1,0 +1,200 @@
+/* Container styles */
+.container {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #000; /* Black text color */
+  padding: 2em;
+}
+
+/* Main content styling */
+.main {
+  text-align: center; /* Center-align content */
+}
+
+/* Card container styling */
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+/* Typical container styling */
+.typicalContainer {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Typical text styling */
+.typicalText {
+  color: #7d6198; /* A different shade of blue */
+  font-weight: bold;
+}
+
+/* Card styling */
+.card {
+  height: 16em;
+  width: 18em;
+  border: 2px solid rgba(68, 32, 115, 0.5);
+  border-radius: 1.5em;
+  background: linear-gradient(
+    to bottom right,
+    rgba(75, 30, 133, 1),
+    rgba(75, 30, 133, 0.01)
+  );
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(12px);
+}
+
+/* Card heading styling */
+.card h2 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #3f2b65; /* Darker blue color */
+  margin-bottom: 1em;
+}
+
+/* Card paragraph styling */
+.card p {
+  font-size: 0.85em;
+}
+
+/* Button styling within cards */
+.card button {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.25em 1em;
+  border: 1px solid white;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  overflow: hidden;
+  transition: transform 0.2s;
+  backdrop-filter: blur(12px);
+}
+
+/* Button hover effect */
+.card button:hover {
+  transform: translateY(0.125em);
+}
+
+/* SVG icon within buttons */
+.card button svg {
+  width: 1.5em;
+  height: 1.5em;
+  transition: transform 0.3s;
+}
+
+/* SVG icon hover effect */
+.card button:hover svg {
+  transform: translateX(10%);
+}
+
+/* Card link styling */
+.card a.cardLink {
+  color: #633148; /* Link color */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Card link hover effect */
+.card a.cardLink:hover {
+  color: #005b99; /* Darker blue on hover */
+}
+
+/* List styling within cards */
+.card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.card ul li {
+  margin-bottom: 0.5em;
+}
+
+/* Section styling */
+.section {
+  margin-top: 4em;
+}
+
+/* Section heading styling */
+.section h2 {
+  color: #3f2b65; /* Light blue color */
+  margin-bottom: 1em;
+}
+
+/* Why Choose Us section styling */
+.whyChooseUs {
+  position: relative;
+  background-image: url('../public/images/edit-mental-img.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  color: rgb(25, 1, 34);
+  display: flex;
+  align-items: center;
+}
+
+/* Why Choose Us section styli
+/* Why Choose Us content styling */
+.whyChooseUsContent {
+  position: relative;
+  z-index: 2;
+  padding: 30px; /* Adjusted padding for content */
+  max-width: 50%; /* Width of the content area */
+  margin-left: 2em; /* Added margin to push content away from left edge */
+  background-color: #f0f8ff; /* Matches the main page background color */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+/* Why Choose Us heading styling */
+.whyChooseUsContent h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Why Choose Us paragraph styling */
+.whyChooseUsContent p {
+  font-size: 1.3rem;
+  line-height: -1; /* Line height for readability */
+  margin-bottom: 0.1em; /* Consistent spacing between paragraphs */
+}
+
+/* Assuming you are using CSS Modules */
+.section {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically, adjust height as needed */
+  text-align: center; /* Center text inside */
+}
+
+.exploreButton {
+  height: fit-content;
+  width: fit-content;
+  padding: 0.25em 1em;
+  border: 1px solid white;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+
+  overflow: hidden;
+  transition: transform 0.2s;
+  backdrop-filter: blur(12px);
+  background: linear-gradient(
+    to bottom right,
+    rgba(75, 30, 133, 1),
+    rgba(75, 30, 133, 0.01)
+  );
+  color: white; /* Button text color */
+  cursor: pointer; /* Optional: Add pointer cursor on hover */
+}
