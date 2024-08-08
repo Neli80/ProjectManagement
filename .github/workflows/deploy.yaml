@@ -18,7 +18,7 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '16'  # Ensure this matches your Node version
+        node-version: '20.10.0'  # Ensure this matches your Node version
 
     - name: Install dependencies
       run: npm install --force
