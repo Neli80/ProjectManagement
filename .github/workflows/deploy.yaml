@@ -21,7 +21,8 @@ jobs:
         node-version: '16'  # Ensure this matches your Node version
 
     - name: Install dependencies
-      run: npm install
+      run: npm install --force
+
 
     - name: Build and export Next.js app
       run: npm run deploy
