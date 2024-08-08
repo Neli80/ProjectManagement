@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageContent from "../components/PageContent";
 import data from "../data";
+import Image from 'next/image';
 
 const SocialWellbeing = () => {
   return (
@@ -23,7 +24,7 @@ const SocialWellbeing = () => {
           />
         </div>
         <div style={imageContainerStyle}>
-          <img
+          <Image
             src="/images/social-wellbeing.jpg"
             alt="Social Well-being"
             style={imageStyle}

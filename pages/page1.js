@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { FormContext } from "../context/FormContext";
 import { useRouter } from "next/router";
 import styles from "../styles/Page1.module.css";
+import Image from 'next/image';
 
 const Page1 = () => {
   const { formData, setFormData } = useContext(FormContext);
@@ -81,7 +82,7 @@ const Page1 = () => {
         </form>
       </div>
       <div className={styles.gifContainer}>
-        <img
+        <Image
           src="/images/82eb0e1d6bea3ea0627a897f9bb8eb15.gif"
           alt="Motivational GIF"
           className={styles.gif}

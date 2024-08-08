@@ -3,6 +3,7 @@ import { useContext, useState } from "react";
 import { FormContext } from "../context/FormContext";
 import { useRouter } from "next/router";
 import styles from "../styles/Page2.module.css"; // Import the CSS module
+import Image from 'next/image';
 
 const Page2 = () => {
   const { formData, setFormData } = useContext(FormContext);
@@ -349,7 +350,7 @@ const Page2 = () => {
         </div>
       </div>
       <div className={styles.gifContainer}>
-        <img
+        <Image
           src="/path/to/your/gif.gif"
           alt="Decorative GIF"
           className={styles.gif}

@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageContent from "../components/PageContent";
+import Image from 'next/image';
 import data from "../data";
 
 const MentalHealth = () => {
@@ -23,7 +24,7 @@ const MentalHealth = () => {
           />
         </div>
         <div style={imageContainerStyle}>
-          <img
+          <Image
             src="https://ca-times.brightspotcdn.com/dims4/default/ee0661e/2147483647/strip/true/crop/2000x1333+0+0/resize/2000x1333!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F8e%2Fb7%2F99beae9a4be0bbced1487b04b619%2Fla-hm-nyny-mental-health.jpg"
             alt="Mental Health"
             style={imageStyle}

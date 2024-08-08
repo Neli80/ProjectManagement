@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageContent from "../components/PageContent";
 import data from "../data";
+import Image from 'next/image';
 
 const Sleep = () => {
   return (
@@ -23,7 +24,7 @@ const Sleep = () => {
           />
         </div>
         <div style={imageContainerStyle}>
-          <img
+          <Image
             src="https://t3.ftcdn.net/jpg/02/68/79/78/360_F_268797880_ZXUXtIyCSnB132xxJOUQcnTusxiTQFGp.jpg"
             alt="Sleep"
             style={imageStyle}

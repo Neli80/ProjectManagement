@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageContent from "../components/PageContent";
 import data from "../data";
+import Image from 'next/image';
 
 const Mindfulness = () => {
   return (
@@ -23,7 +24,7 @@ const Mindfulness = () => {
           />
         </div>
         <div style={imageContainerStyle}>
-          <img
+          <Image
             src="https://static.vecteezy.com/system/resources/previews/004/914/728/non_2x/mental-health-illustration-concept-self-meditation-mental-growth-yoga-mindfulness-free-vector.jpg"
             alt="Mindfulness"
             style={imageStyle}

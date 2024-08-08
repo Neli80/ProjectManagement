@@ -82,7 +82,7 @@ const Home = () => {
             <div>
               <h2>Enhance Your Sleep</h2>
               <p>
-                A good night's sleep is essential for overall health and
+                A good nights sleep is essential for overall health and
                 well-being. We offer a variety of resources to help you achieve
                 better sleep quality.
               </p>
